@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.13.0" timestamp="2019-05-18T14:00:41.954">
+<file name="C:\Users\nazar\IdeaProjects\kkariLab4\weavingMachines\src\main\java\ua\lviv\iot\weaving_machines\Main.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="45" rule="UnusedImports" ruleset="Best Practices" package="ua.lviv.iot.weaving_machines" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'ua.lviv.iot.weaving_machines.models'
+</violation>
+</file>
+<file name="C:\Users\nazar\IdeaProjects\kkariLab4\weavingMachines\src\main\java\ua\lviv\iot\weaving_machines\manager\MachineManagerImpl.java">
+<violation beginline="20" endline="21" begincolumn="45" endcolumn="51" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.weaving_machines.manager" class="MachineManagerImpl" method="findByMaterial" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="29" endline="30" begincolumn="45" endcolumn="43" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.weaving_machines.manager" class="MachineManagerImpl" method="findByWidth" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
